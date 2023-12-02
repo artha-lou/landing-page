@@ -1,0 +1,220 @@
+@import url('https://fonts.cdnfonts.com/css/made-tommy-outline');
+@import url('https://fonts.cdnfonts.com/css/pioggia');
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+/* Section 1 of website (header)*/
+section-1 {
+    background-color: #462a28;
+    display: flex;
+    flex-direction: column;
+    color:#fffbfd;
+    padding: 32px 150px;
+
+}
+
+.header-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 32px;
+}
+
+.headerlogo {
+    font-family: 'MADE TOMMY', sans-serif;
+    font-weight: 600;
+    font-size: 24px;    
+}
+
+.header-links {
+    font-family: 'MADE TOMMY', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.content-1 {
+    display: flex;
+    justify-content: space-between;
+    gap: 64px;
+}
+
+.content-1-left {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content-1-bigtext {
+    font-family: 'MADE TOMMY', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    padding-bottom: 12px;
+}
+
+.content-1-smalltext {
+    font-family: 'MADE TOMMY', sans-serif;
+    font-size: 18px;
+    color: #f5e9e7;
+    padding-bottom: 12px;;
+}
+
+button.signup {
+    background: #b69096;
+    border: 1px solid #b69096;
+    color:#fffbfd;
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 8px;
+    width: 200px;
+}
+
+.section-1-img{
+    display: flex; 
+    width: 30vw;
+    height: auto;
+    flex-shrink: 0;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 10%;
+}
+
+a {
+    text-decoration: none;
+    color:#f5e9e7;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 15px
+}
+
+/* Section 2 of website*/
+.section-2 {
+    background-color: #d1bbb9;
+    color:#fffbfd;
+    padding: 32px 150px;
+}
+
+.header-2 {
+    display: flex;
+    justify-content: center;
+    font-size: 48px;
+    font-weight: 400;
+    margin-bottom: 32px;
+    font-family: 'Pioggia', sans-serif;
+    padding-bottom: 32px;
+}
+
+.content-2 {
+    gap: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.text-2 {
+    color: #8c5551;
+    font-family: 'MADE TOMMY', sans-serif;
+    text-align: center;
+}
+
+.section-2-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    padding-bottom: 16px;
+  }
+
+  .info {
+    max-width: 150px;
+}
+
+/* Section 3 of website*/
+.section-3 {
+    background-color:#f5e9e7;
+    display: flex;
+    flex: auto;
+    justify-content: center;
+    align-items: center;
+    color:#8c5551;
+    padding: 64px 400px;
+    flex-direction: column;
+    font-family: 'light italic', Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight:lighter;
+    line-height: 1.5;
+    font-style: italic;
+}
+
+.s3under {
+    align-self: flex-end;
+    justify-self: flex-end;
+    font-family: 'Pioggia', sans-serif;
+    padding-top: 0px;
+    font-size: 24px;
+
+}
+/* Section 4 of website*/
+.section-4 {
+    background-color: #d1bbb9;
+    color:#fffbfd;
+    padding: 24px 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.container4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px;
+    background: #583f3d;
+    border: 1px solid #583f3d;
+    color:#fffbfd;
+    padding: 40px;
+    border-radius: 8px;
+    width: 800px;
+    gap: 32px;
+}
+
+.left4 {
+    font-family: 'MADE TOMMY', sans-serif;
+}
+
+.top4 {
+    font-size: 48px;
+    padding-bottom: 8px;
+    font-family: 'Pioggia', sans-serif;
+}
+
+.bot4 {
+    font-size: 16px;
+}
+
+button.signup4{
+    flex-shrink: 0;
+    background: #b69096;
+    border: 2px solid #fffbfd;;
+    color:#fffbfd;
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 8px;
+    width: 200px;
+    font-weight: 900;
+    font-size: 16px;
+}
+/* Section 5 of website (footer)*/
+.section-5 {
+    background-color: #462a28;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#fffbfd;
+    padding: 8px;
+    font-family: 'MADE TOMMY', sans-serif;
+}
